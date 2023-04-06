@@ -6,7 +6,7 @@ const Difficulty = (props) => {
       <p>Adds and removes amount of buttons to choose from (3 is the minimum and 10 is maximum)</p>
       <div className="difficulty-button-container">
         <Button id="decrease" onClick={props.handleDifficulty}>
-          decrease
+          Decrease
         </Button>
         <span className="difficulty-rating">{props.difficultyRating}</span>
         <Button id="increase" onClick={props.handleDifficulty}>
