@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Button from "../UI/Button";
-import ColorPickSetting from "./ColorPickSetting";
-import Difficulty from "./Difficulty";
+import Button from "../UI/Button.jsx";
+import ColorPickSetting from "./ColorPickSetting.jsx";
+import Difficulty from "./Difficulty.jsx";
 import "./Menu.css";
 
 const Menu = (props) => {

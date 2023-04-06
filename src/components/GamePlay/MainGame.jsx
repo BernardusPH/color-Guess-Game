@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Box from "./box/Box";
-import GuessButton from "./guessButton/GuessButton";
-import Button from "../UI/Button";
+import GuessButton from "./guessButton/GuessButton.jsx";
+import Button from "../UI/Button.jsx";
 import "./MainGame.css"
 
 const MainGame = (props) => {

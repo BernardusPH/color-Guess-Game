@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Menu from "./components/gameMenu/Menu";
-import MainGame from "./components/GamePlay/MainGame";
-import colorGenerate from "./color-generator";
+import Menu from "./components/gameMenu/Menu.jsx";
+import MainGame from "./components/GamePlay/MainGame.jsx";
+import colorGenerate from "./color-generator.jsx";
 import "./App.css";
 
 function App() {
