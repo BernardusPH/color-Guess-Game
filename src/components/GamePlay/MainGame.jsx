@@ -13,12 +13,12 @@ const MainGame = (props) => {
   const handleGameResult = (userChoice) => {
     if (Number(userChoice) === props.colorManagement.choice) {
       setGameStats((prev) => ({
-        text: "You won, chose again",
+        text: "You Won, Choose Again",
         score: ++prev.score,
       }));
     } else {
       setGameStats({
-        text: "You lost,try again",
+        text: "You Lost,Try Again",
         score: 0,
       });
     }
