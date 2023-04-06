@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Box from "./box/Box";
 import GuessButton from "./guessButton/GuessButton.jsx";
 import Button from "../UI/Button.jsx";
-import "./MainGame.css"
+import "./MainGame.css";
 
 const MainGame = (props) => {
   const [gameStats, setGameStats] = useState({
-    text: "Please Choose The Correct Color",
+    text: "Choose The Right Color",
     score: localStorage.getItem("score") || 0,
   });
 
@@ -32,9 +32,11 @@ const MainGame = (props) => {
   let chosenColor = props.colorManagement.colors[props.colorManagement.choice];
   return (
     <div className="gameScreen">
-      <h1>{gameStats.text}</h1>
+      <header>
+        <h1>{gameStats.text}</h1>
+      </header>
       <h2>Score(wins in a row): {gameStats.score}</h2>
-      <Button onClick={props.showMenu} >Menu</Button>
+      <Button onClick={props.showMenu}>Menu</Button>
       <Box chosenColor={chosenColor} />
       <div className="Guess-btn-container">
         <GuessButton
@@ -42,7 +44,6 @@ const MainGame = (props) => {
           colorManagement={props.colorManagement}
         />
       </div>
-     
     </div>
   );
 };
