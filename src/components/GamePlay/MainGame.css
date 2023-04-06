@@ -1,0 +1,10 @@
+.gameScreen>*{
+  margin-bottom: 1rem;
+}
+.Guess-btn-container {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+}
+
+

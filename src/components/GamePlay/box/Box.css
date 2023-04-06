@@ -1,0 +1,7 @@
+.color-box{
+    width:clamp(150px,50%,350px);
+    aspect-ratio: 1/1;
+    margin:1rem auto;
+    border: 4px solid black;
+    
+}

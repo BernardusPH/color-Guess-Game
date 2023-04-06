@@ -1,0 +1,43 @@
+.menu h1 {
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  margin-bottom: 2rem;
+}
+.menu h3 {
+  font-size: clamp(1rem, 3.5vw, 1.5rem);
+  margin-bottom: 1rem;
+}
+.menu > div {
+  border-top: 3px solid black;
+  padding: 20px 10px;
+}
+.menu > div:last-of-type {
+  border-bottom: 3px solid black;
+}
+.colorPicker-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.colorPicker-container>*{
+    min-width:140px;
+}
+.menu  p {
+  font-size: clamp(0.9rem, 3.5vw, 1.5rem);
+}
+
+.difficulty-button-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+.difficulty-button-container>*{
+    min-width:140px;
+}
+.difficulty-rating {
+  font-size: clamp(1rem, 3.5vw, 1.5rem);
+}
+.menu > button {
+  margin-top: 1rem;
+}
