@@ -33,7 +33,7 @@
   align-items: center;
 }
 .difficulty-button-container>*{
-    min-width:140px;
+    min-width:50px;
 }
 .difficulty-rating {
   font-size: clamp(1rem, 3.5vw, 1.5rem);
