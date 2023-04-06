@@ -12,16 +12,12 @@ button:active {
   transform: translateY(3px);
 }
 
+button:hover {
+  background-color: rgb(222, 103, 222);
+}
 
-@media (hover: hover) {
+@media (max-width: 768px) {
   button:hover {
-    background-color: rgb(222, 103, 222);
+    background-color: rgb(222, 183, 222) !important;
   }
 }
-@media (hover: none) {
-    /* styles for touch devices */
-    button:hover {
-        background-color: rgb(222, 183, 222);
-      
-    }
-  }
