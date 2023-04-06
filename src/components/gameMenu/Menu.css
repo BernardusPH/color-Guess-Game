@@ -22,7 +22,7 @@
     min-width:140px;
 }
 .menu  p {
-  font-size: clamp(0.9rem, 3.5vw, 1.5rem);
+  font-size: clamp(1.1rem, 3.5vw, 1.5rem);
 }
 
 .difficulty-button-container {
