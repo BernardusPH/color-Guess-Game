@@ -13,7 +13,7 @@ const Menu = (props) => {
   );
 
   const handleColorPick = (color) => {
-    console.log(color);
+ 
     switch (color) {
       case "RGB":
         setColorPick("HEX");

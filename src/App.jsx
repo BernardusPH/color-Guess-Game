@@ -26,7 +26,7 @@ function App() {
       show: true,
     }));
   };
-  console.log(colorManagement);
+  
   return (
     <main>
       {gameMenu.show ? (
