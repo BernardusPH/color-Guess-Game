@@ -58,10 +58,10 @@ const Menu = (props) => {
         handleDifficulty={handleDifficulty}
       />
       <Button onClick={handleStartClick}>
-        {props.gameMenu.touched ? "Back To Game" : "Start Game"}
+        {(props.gameMenu.touched || (localStorage.getItem("score")!=0)) ? "Back To Game" : "Start Game"}
       </Button>
       <br />
-      <Button onClick={handleReset} disable={!props.gameMenu.touched}>
+      <Button onClick={handleReset} disable={!(props.gameMenu.touched && (localStorage.getItem("score")!=0))}>
         Reset Score
       </Button>
     </div>
